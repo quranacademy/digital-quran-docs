@@ -1,0 +1,55 @@
+| Name | Code |
+| --- | --- |
+| Albanian | sq |
+| Amharic | am |
+| Arabic | ar |
+| Avar | av |
+| Azerbaijan | az |
+| Bangla | bn |
+| Bashkir | ba |
+| Bosnian | bs |
+| Bulgarian | bg |
+| Chechen | ce |
+| Chinese | zh |
+| Czech | cs |
+| Dutch | nl |
+| English | en |
+| French | fr |
+| Georgian | ka |
+| German | de |
+| Greek | el |
+| Hausa | ha |
+| Hebrew | he |
+| Hindi | hi |
+| Indonesian | id |
+| Ingush | inh |
+| Italian | it |
+| Japanese | ja |
+| Kabardian-Circassian language | kbd |
+| Karachay-Balkar language | krc |
+| Kazakh | kk |
+| Korean | ko |
+| Kurdish | ku |
+| Lezghian | lez |
+| Malay | ms |
+| Moldovan | mo |
+| Nepali | ne |
+| Norwegian (Bokmål) | no |
+| Persian | fa |
+| Polish | pl |
+| Portuguese | pt |
+| Romanian | ro |
+| Russian | ru |
+| Somali | so |
+| Spanish | es |
+| Swahili | sw |
+| Swedish | sv |
+| Tajik | tg |
+| Tamil | ta |
+| Tatar | tt |
+| Thai | th |
+| Turkish | tr |
+| Ukranian | uk |
+| Urdu | ur |
+| Uyghur language | ug |
+| Uzbek | uz |
