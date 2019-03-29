@@ -1,1 +1,1 @@
-Documentation for Quran Academy data distribution project: Digital Quran
+**Digital Quran** is a platform created by [Quran Academy](https://quranacademy.org) for distribution data related to the Quran.
