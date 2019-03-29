@@ -10,4 +10,5 @@
 * [Limits](api/limits.md)
 * [Errors](api/errors.md)
 * [Pagination](api/pagination.md)
-
+* Public endpoints
+    * [Surahs](api/public-endpoints/surahs.md)
