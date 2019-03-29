@@ -9,5 +9,5 @@
 * [Creating an application](api/creating-an-application.md)
 * [Limits](api/limits.md)
 * [Errors](api/errors.md)
-* [Pagination](api/paginations.md)
+* [Pagination](api/pagination.md)
 
