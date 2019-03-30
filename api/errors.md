@@ -7,16 +7,18 @@ If an error occurs during the request, the server will return the response in th
 
 ```json
 {
-    "error": "ERROR_CODE",
-    "error_message": "Message with error description"
+    "error": {
+        "code": "ERROR_CODE",
+        "message": "Message with error description."
+    }
 }
 ```
 
-The response code will be 200, not 4xx or 5xx, because it's not a REST API.
+The response status code will be 200, not 4xx or 5xx, because it's not a REST API. If the server returned a response with code 4xx or 5xx it means that something went wrong and the server couldn't handle a error correctly, so the response may be an  invalid JSON.
 
-If the server returned a response with code 4xx or 5xx it may be not a valid JSON.
+You have to handle the both cases: if the response status code is not equals 200 and if the response contains the field "error".
 
-Each endpoint may have it's own error codes but there are also common error codes.
+Every endpoint may have it's own error codes but there are also common error codes.
 
 ## Common error codes
 
@@ -58,8 +60,10 @@ Example:
 
 ```json
 {
-    "error": "INVALID_PARAMETERS",
-    "error_message": "Some of passed parameters are invalid",
+    "error": {
+        "code": "INVALID_PARAMETERS",
+        "message": "Some of passed parameters are invalid"
+    },
     "validation_errors": {
         "surah": "Surah number must be an integer from 1 to 114"
     },
