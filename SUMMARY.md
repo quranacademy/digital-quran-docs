@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
+* [Standards & conventions](standards-and-conventions.md)
 
 ## API
 
@@ -11,5 +12,12 @@
 * [Errors](api/errors.md)
 * [Pagination](api/pagination.md)
 * [CORS](api/cors.md)
-* Public endpoints
-    * [Surahs](api/public-endpoints/surahs.md)
+* [Public endpoints](api/public-endpoints/README.md)
+  * [Surahs](api/public-endpoints/surahs.md)
+
+## FAQ
+
+* [How can I contribute?](faq/how-can-i-contribute.md)
+
+## Files sharing
+

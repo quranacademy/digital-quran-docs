@@ -1,18 +1,20 @@
-### List All Surahs 
+# Surahs
 
-#### URL
+## List All Surahs
 
-```
+### URL
+
+```text
 GET /surahs
 ```
 
-#### Parameters
+### Parameters
 
 None
 
-#### Response
+### Response
 
-```json
+```javascript
 {
     "data": [
         {
@@ -41,23 +43,23 @@ None
 }
 ```
 
-### Fetch a specific surah
+## Fetch a specific surah
 
-#### URL
+### URL
 
-```
+```text
 GET /surah
 ```
 
-#### Parameters
+### Parameters
 
-| Name| Type | Description |
-| --- | --- | --- |
-| surah_number | integer | The number of a surah. |
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| surah\_number | integer | The number of a surah. |
 
-#### Response
+### Response
 
-```json
+```javascript
 {
     "data": {
         "number": 1,
@@ -72,3 +74,4 @@ GET /surah
     }
 }
 ```
+

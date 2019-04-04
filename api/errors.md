@@ -1,11 +1,11 @@
 # Errors
 
-- If the server returned status code not equals 200 then an error occured.
-- You should always check that the response is a valid JSON.
+* If the server returned status code not equals 200 then an error occured.
+* You should always check that the response is a valid JSON.
 
 If an error occurs during the request, the server will return the response in the following format:
 
-```json
+```javascript
 {
     "error": {
         "code": "ERROR_CODE",
@@ -14,7 +14,7 @@ If an error occurs during the request, the server will return the response in th
 }
 ```
 
-The response status code will be 200, not 4xx or 5xx, because it's not a REST API. If the server returned a response with code 4xx or 5xx it means that something went wrong and the server couldn't handle a error correctly, so the response may be an  invalid JSON.
+The response status code will be 200, not 4xx or 5xx, because it's not a REST API. If the server returned a response with code 4xx or 5xx it means that something went wrong and the server couldn't handle a error correctly, so the response may be an invalid JSON.
 
 You have to handle the both cases: if the response status code is not equals 200 and if the response contains the field "error".
 
@@ -22,43 +22,43 @@ Every endpoint may have it's own error codes but there are also common error cod
 
 ## Common error codes
 
-**UNKNOWN_ERROR**
+**UNKNOWN\_ERROR**
 
 Unknown error occurred. Typically a server bug.
 
-**NOT_FOUND**
+**NOT\_FOUND**
 
 Endpoint not found. Check request URL is correct.
 
-**TOO_MANY_REQUESTS**
+**TOO\_MANY\_REQUESTS**
 
 Too many requests.
 
-**ACCESS_TOKEN_NOT_PROVIDED**
+**ACCESS\_TOKEN\_NOT\_PROVIDED**
 
 Access token is not provided.
 
-**INVALID_ACCESS_TOKEN**
+**INVALID\_ACCESS\_TOKEN**
 
 Access token is invalid.
 
-**LANGUAGE_NOT_PROVIDED**
+**LANGUAGE\_NOT\_PROVIDED**
 
 "Language" header is not provided.
 
-**INVALID_LANGUAGE**
+**INVALID\_LANGUAGE**
 
-Invalid language code provided. See the [list of available languages](available-languages.md).
+Invalid language code provided. See the [list of available languages](https://github.com/quranacademy/digital-quran-docs/tree/5ac35f82b33be44b98843418794dc47bf7dcdf68/api/available-languages.md).
 
-**INVALID_PARAMETERS**
+**INVALID\_PARAMETERS**
 
-Invalid parameter(s) provided.
+Invalid parameter\(s\) provided.
 
 This error means that some of passed parameters are invalid. In response you will get `validation_errors` field with validation error messages.
 
 Example:
 
-```json
+```javascript
 {
     "error": {
         "code": "INVALID_PARAMETERS",
@@ -70,6 +70,7 @@ Example:
 }
 ```
 
-**INTERNAL_SERVER_ERROR**
+**INTERNAL\_SERVER\_ERROR**
 
 Internal server error occurred. Typically a server bug.
+
