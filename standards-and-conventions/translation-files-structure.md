@@ -101,13 +101,13 @@ List of persons and/or organizations that should be contacted in case if a error
 
 ### File changes info: firstGeneratedAt, lastGeneratedAt, textUpdatedAt
 
-For easier keep track of changes in the translation, three date-time fields are provided.
+For easier keep track of changes in the translation, three date-time fields are provided. Date-time values are provided in ISO 8601 format.
 
 | PROPERTY | EXAMPLE | DESCRIPTION |
 | :--- | :--- | :--- |
-| firstGeneratedAt |  | Date-time of the first release of the translation **in Digital Quran** |
-| lastGeneratedAt |  | Date-time of the last release of the translation **in Digital Quran**. i.e. the last time the file was changed for any reasons: authors info, license info, translation text, etc.  |
-| textUpdatedAt |  | Date-time of the release where text of the translation was changed. i.e. the last time when **only translation** was modified. This field is important to separate updates of meta-data from updates from text of the translation was edited.  |
+| firstGeneratedAt | 2018-04-06T16:33:47Z | Date-time of the first release of the translation **in Digital Quran** |
+| lastGeneratedAt | 2019-04-06T16:33:47Z | Date-time of the last release of the translation **in Digital Quran**. i.e. the last time the file was changed for any reasons: authors info, license info, translation text, etc.  |
+| textUpdatedAt | 2018-04-06T16:33:47Z | Date-time of the release where text of the translation was changed. i.e. the last time when **only translation** was modified. This field is important to separate updates of meta-data from updates from text of the translation was edited.  |
 
 ## Translation itself \(content\)
 
