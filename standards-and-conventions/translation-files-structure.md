@@ -107,7 +107,7 @@ For easier keep track of changes in the translation, three date-time fields are 
 | :--- | :--- | :--- |
 | firstGeneratedAt |  | Date-time of the first release of the translation **in Digital Quran** |
 | lastGeneratedAt |  | Date-time of the last release of the translation **in Digital Quran**. i.e. the last time the file was changed for any reasons: authors info, license info, translation text, etc.  |
-| textUpdatedAt |  | Date-time of the release where text of the translation was changed. i.e. the last time when only translation was modified. This field is important to separate updates of meta-data from updates from text of the translation was edited.  |
+| textUpdatedAt |  | Date-time of the release where text of the translation was changed. i.e. the last time when **only translation** was modified. This field is important to separate updates of meta-data from updates from text of the translation was edited.  |
 
 ## Translation itself \(content\)
 
