@@ -1,7 +1,12 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Standards & conventions](standards-and-conventions.md)
+
+## Standards & conventions
+
+* [Quran](standards-and-conventions/quran.md)
+* [Naming convention](standards-and-conventions/naming-convention.md)
+* [Translation files structure](standards-and-conventions/translation-files-structure.md)
 
 ## API
 
