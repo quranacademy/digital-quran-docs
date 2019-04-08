@@ -23,8 +23,8 @@ Here you can find examples of [by-ayah translation](translation-files-examples.m
     "translation": {
         "meta": {
             "name": {
-                "ru": "Абу Адель",
-                "en": "Abu Adel"
+                "ru": "Эльмир Кулиев",
+                "en": "Elmir Kuliyev"
             },
             "language": {
                 "name": "Russian",
@@ -35,21 +35,25 @@ Here you can find examples of [by-ayah translation](translation-files-examples.m
             "authors": [
                 {
                     "name": {
-                        "ru": "Абу Адель",
-                        "en": "Abu Adel"
+                        "ru": "Эльмир Кулиев",
+                        "en": "Elmir Kuliev",
                     },
                     "bio": {
-                        "ru": "До Ислама работал переводчиком с английского. Принял Ислам в 1998 году и начал изучать Коран и арабский язык...",
-                        "en": "Before Islam, he worked as an English translator. Accepted Islam in 1998 and began to study the Quran and Arabic..."
+                        "ru": "Эльмир Кулиев — азербайджанский светский ученый-религиовед, автор перевода Священного Корана на русский язык, специалист в области мусульманского богословия, истории и культуры исламского региона. Автор книг «Пророчества о приближении конца света», «На пути к Корану», «Коран и глобализация», «Сладость веры», соавтор книг «Уроки благословенного месяца», «Исламоведение» (пособие для преподавателей), «Корановедение» (пособие для вузов). В последние годы Эльмир Кулиев занимается исследовательской и преподавательской деятельностью в своем родном городе, участвует в международных конференциях и выступает с лекциями в разных странах, ведет персональный сайт www.guliyev.org и страницу в социальной сети Facebook www.facebook.com/guliyev.org.",
+                        "en": "Elmir Guliyev is an Azerbaijani secular religious scholar, author of the translation of the Holy Quran into Russian, an expert in Muslim theology, history and culture of the Islamic region. Author of the books “Prophecies about the end of the world”, “Towards the Qur'an”, “The Quran and Globalization”, “Sweetness of Faith”, co-author of the books “Lessons of the blessed month”, “Islamic studies” (teacher’s manual), “Koran studies” (manual for universities). In recent years, Elmir Guliyev is engaged in research and teaching activities in his hometown, participates in international conferences and lectures in different countries, maintains a personal website www.guliyev.org and a page on the social network Facebook www.facebook.com/guliyev.org."
                     },
                     "contacts": [
                         {
                             "type": "email",
-                            "value": "email@example.com"
+                            "value": "kuliev@mail.ru"
                         },
                         {
-                            "type": "whatsapp",
-                            "value": "+79995554411"
+                            "type": "website",
+                            "value": "www.guliyev.org"
+                        },
+                        {
+                            "type": "facebook",
+                            "value": "www.facebook.com/guliyev"
                         }
                     ],
                     "isAlive": "true"
@@ -58,40 +62,38 @@ Here you can find examples of [by-ayah translation](translation-files-examples.m
             "riwaya": "Hafs",
             "copyrights": {
                 "license": "Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/)",
-                "rightholder": "Abu Adel"
+                "rightholder": "Elmir Kuliev"
             },
             "issueContacts": {
                 "contact": [
                     {
                         "type": "email",
-                        "value": "name@example.com"
-                    },
-                    {
-                        "type": "phone",
-                        "value": "7928555555555"
+                        "value": "kuliev@mail.ru"
                     }
                 ]
             },
-            "firstGeneratedAt": "2019-03-25 14:05:34",
-            "lastGeneratedAt": "2019-03-25 14:05:34",
+            "firstGeneratedAt": "2019-04-05 06:01:53",
+            "lastGeneratedAt": "2019-04-05 06:01:53",
             "textUpdatedAt": "2018-11-13 05:44:32"
         },
         "content": {
-            "1": {
-                "number": 1,
-                "name": "Открывающая Коран",
-                "nameTransliterated": "Аль-Фатиха",
-                "ayats": [
-                    {
-                        "number": 1,
-                        "text": "С именем Аллаха Милостивого, Милосердного!"
-                    },
-                    {
-                        "number": 2,
-                        "text": "(Вся) хвала – (лишь одному) Аллаху, Господу миров [Господу всех творений],"
-                    }
-                ]
-            }
+            "surahs": [
+                {
+                    "number": 1,
+                    "name": "Открывающая Коран",
+                    "nameTransliterated": "Аль-Фатиха",
+                    "ayats": [
+                        {
+                            "number": 1,
+                            "text": "С именем Аллаха Милостивого, Милосердного!"
+                        },
+                        {
+                            "number": 2,
+                            "text": "(Вся) хвала – (лишь одному) Аллаху, Господу миров [Господу всех творений],"
+                        }
+                    ]
+                }
+            ]
         }
     }
 }
