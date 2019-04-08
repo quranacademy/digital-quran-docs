@@ -193,5 +193,7 @@ Here you can find examples of [by-ayah translation](translation-files-examples.m
 
 ## Word-by-word translation example
 
+TODO:
+
 
 
