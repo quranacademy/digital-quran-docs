@@ -6,7 +6,9 @@
 
 * [Quran](standards-and-conventions/quran.md)
 * [Naming convention](standards-and-conventions/naming-convention.md)
-* [Translation files structure](standards-and-conventions/translation-files-structure.md)
+* [Translation files: description](standards-and-conventions/translation-files-structure.md)
+* [Translation files: examples](standards-and-conventions/translation-files-examples.md)
+* [Translation texts](standards-and-conventions/translation-texts.md)
 
 ## API
 

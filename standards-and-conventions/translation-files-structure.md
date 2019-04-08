@@ -2,13 +2,25 @@
 description: Here you can find standards related to translation files
 ---
 
-# Translation files structure
+# Translation files: description
 
 All translations available in two formats: XML and JSON in UTF-8 encoding. Data in a file is split into two parts: 1\) meta-data, like authors, licence, etc. -- called `meta` in files, 2\) translation itself -- called `content` in files.
 
+{% hint style="info" %}
+Translations are of two types: by-ayah and word-by-word. Structure of the both types is mostly the same. The only difference is in`ayah` object in `content` part. See [Translation itself \(content\)](translation-files-structure.md#translation-itself-content) section below for the details.
+{% endhint %}
+
+{% hint style="danger" %}
+Some by-ayah translations and most of word-by-word translations has joined translations, i.e. when two \(or more\) words translated as one. See [Russian word-by-word translation of 90:14 at Quran Academy](https://ru.quranacademy.org/quran/90) for an example. Check [Translation texts](translation-texts.md) for more details.
+{% endhint %}
+
 ## Meta-data \(meta\)
 
- Meta-data \(`meta` in files\) provides information about the translation, like authors, contacts, license, etc. All information is provided in, at least, two languages: language of the translation and English. Meta-data section has the following structure:
+{% hint style="warning" %}
+**NOTE.** Information in examples is not reliable! Please, do not treat it as real information. Mostly it is made up to just give you an idea of how values look like.
+{% endhint %}
+
+Meta-data \(`meta` in files\) provides information about the translation, like authors, contacts, license, etc. All information is provided in, at least, two languages: language of the translation and English. Meta-data section has the following structure:
 
 ### language
 
@@ -101,15 +113,55 @@ List of persons and/or organizations that should be contacted in case if a error
 
 ### File changes info: firstGeneratedAt, lastGeneratedAt, textUpdatedAt
 
-For easier keep track of changes in the translation, three date-time fields are provided. Date-time values are provided in ISO 8601 format.
+For easier keep track of changes in the translation, three date-time fields are provided. Date-time values are provided in `YYYY-MM-DD HH:MM:SS` format.
 
 | PROPERTY | EXAMPLE | DESCRIPTION |
 | :--- | :--- | :--- |
-| firstGeneratedAt | 2018-04-06T16:33:47Z | Date-time of the first release of the translation **in Digital Quran** |
-| lastGeneratedAt | 2019-04-06T16:33:47Z | Date-time of the last release of the translation **in Digital Quran**. i.e. the last time the file was changed for any reasons: authors info, license info, translation text, etc.  |
-| textUpdatedAt | 2018-04-06T16:33:47Z | Date-time of the release where text of the translation was changed. i.e. the last time when **only translation** was modified. This field is important to separate updates of meta-data from updates from text of the translation was edited.  |
+| firstGeneratedAt | 2018-04-06 16:33:47 | Date-time of the first release of the translation **in Digital Quran** |
+| lastGeneratedAt | 2019-04-06 16:33:47 | Date-time of the last release of the translation **in Digital Quran**. i.e. the last time the file was changed for any reasons: authors info, license info, translation text, etc.  |
+| textUpdatedAt | 2018-04-06 16:33:47 | Date-time of the release where text of the translation was changed. i.e. the last time when **only translation** was modified. This field is important to separate updates of meta-data from updates from text of the translation was edited.  |
 
 ## Translation itself \(content\)
 
-TODO:
+The text of the translation is placed in `content` section. For both translation types \(by-ayah and word-by-word\) it has mostly the same structure described below.
+
+{% hint style="warning" %}
+Some translations can be incomplete. For that reason we provide a number for each surah, ayah, and word. Use them instead of index.
+{% endhint %}
+
+### **surahs**
+
+| PROPERTY | EXAMPLE | DESCRIPTION |
+| :--- | :--- | :--- |
+| number | 2 | The number of the surah, integer from 1 to 114 |
+| ayahCount | 286 | Total number of ayahs in the surah |
+| name | Корова | Translated \(to the language of the translation\) name of the surah. By default translated names are taken from Quran Academy. But it can be different, if the author wanted their own translation to be used. |
+| nameTransliterated | Аль-Бакара | Transliterated \(to the language of the translation\) name of the surah. As for the translated name, by default values are taken from Quran Academy, but on demand of the author, it can be different. |
+| ayahs |  | A list of ayahs of the surah. **Has a different structure in by-ayah and word-by-word translations** |
+
+### ayahs
+
+{% hint style="danger" %}
+Some by-ayah translations and most of word-by-word translations has joined translations, i.e. when two \(or more\) words translated as one. See [Russian word-by-word translation of 90:14 at Quran Academy](https://ru.quranacademy.org/quran/90) for an example. Check [Translation texts](translation-texts.md) for more details.
+{% endhint %}
+
+{% tabs %}
+{% tab title="BY-AYAH" %}
+| PROPERTY | EXAMPLE | DESCRIPTION |
+| :--- | :--- | :--- |
+| number | 1 | Number of the ayah |
+| text | Алиф лам мим. | Translation of the ayah |
+{% endtab %}
+
+{% tab title="WORD-BY-WORD" %}
+| PROPERTY | SUB-PROPERBY | EXAMPLE | DESCRIPTION |
+| :--- | :--- | :--- | :--- |
+| number |  | 2 | Number of the ayah |
+| words |  |  | A list of words of the ayah |
+|  | number | 1 | Number of the word |
+|  | text | Это | Translation of the word |
+{% endtab %}
+{% endtabs %}
+
+
 
