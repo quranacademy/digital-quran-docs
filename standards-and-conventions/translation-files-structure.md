@@ -142,7 +142,11 @@ Some translations can be incomplete. For that reason we provide a number for eac
 ### ayahs
 
 {% hint style="danger" %}
-Some by-ayah translations and most of word-by-word translations has joined translations, i.e. when two \(or more\) words translated as one. See [Russian word-by-word translation of 90:14 at Quran Academy](https://ru.quranacademy.org/quran/90) for an example. Check [Translation texts](translation-texts.md) for more details.
+Some by-ayah translations and most of word-by-word translations has merged translations, i.e. when two \(or more\) words translated as one. See [Russian word-by-word translation of 90:14 at Quran Academy](https://ru.quranacademy.org/quran/90) for an example. Check [Translation texts](translation-texts.md#merged-translations) for more details.
+{% endhint %}
+
+{% hint style="danger" %}
+There are some differences in formatting translation text in JSON and XML. Although they are minor, it is important to know about them. See [Translation texts](translation-texts.md#translation-comments-and-footnotes) section below for details.
 {% endhint %}
 
 {% tabs %}
