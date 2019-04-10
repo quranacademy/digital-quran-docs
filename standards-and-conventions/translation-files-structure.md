@@ -85,7 +85,7 @@ are optional sections with the same content:
 
 ### riwaya
 
-This sections contains only one value -- riwaya \(transmission\) on which the translation is based, i.e. Hafs, Warsh, Qaloon, etc. By default it is assumed that the translation in based on Hafs riwaya.
+This sections contains only one value -- riwaya \(transmission\) on which the translation is based, i.e. Hafs, Warsh, Qaloon, etc. By default it is assumed that the translation in based on Hafs riwaya. More information about riwaya, qira'at, and the difference between them can be found [here](https://en.wikipedia.org/wiki/Qira%27at).
 
 ### lastVersionSources
 
