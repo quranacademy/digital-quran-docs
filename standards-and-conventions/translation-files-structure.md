@@ -154,7 +154,7 @@ Some by-ayah translations and most of word-by-word translations has joined trans
 {% endtab %}
 
 {% tab title="WORD-BY-WORD" %}
-| PROPERTY | SUB-PROPERBY | EXAMPLE | DESCRIPTION |
+| PROPERTY | SUB-PROPERTY | EXAMPLE | DESCRIPTION |
 | :--- | :--- | :--- | :--- |
 | number |  | 2 | Number of the ayah |
 | words |  |  | A list of words of the ayah |
