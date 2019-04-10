@@ -10,6 +10,10 @@
 * [Translation files: examples](standards-and-conventions/translation-files-examples.md)
 * [Translation texts](standards-and-conventions/translation-texts.md)
 
+## FAQ
+
+* [How can I contribute?](faq/how-can-i-contribute.md)
+
 ## API
 
 * [Getting started](api/getting-started.md)
@@ -21,10 +25,4 @@
 * [CORS](api/cors.md)
 * [Public endpoints](api/public-endpoints/README.md)
   * [Surahs](api/public-endpoints/surahs.md)
-
-## FAQ
-
-* [How can I contribute?](faq/how-can-i-contribute.md)
-
-## Files sharing
 

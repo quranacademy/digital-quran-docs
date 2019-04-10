@@ -82,7 +82,7 @@ Here you can find examples of [by-ayah translation](translation-files-examples.m
                     "number": 1,
                     "name": "Открывающая Коран",
                     "nameTransliterated": "Аль-Фатиха",
-                    "ayats": [
+                    "ayahs": [
                         {
                             "number": 1,
                             "text": "С именем Аллаха Милостивого, Милосердного!"
