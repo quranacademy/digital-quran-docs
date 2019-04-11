@@ -7,7 +7,7 @@ description: Here you can find standards related to the Quran itself
 The Quran consists of 144 chapters called "surah". Each surah consists of verses called "ayah". Although the Quran is the same, there are different opinions on how to count ayahs and words in it. In nowadays, it can lead to some issues, like ambiguous referencing or technical issues like importing translations from sources with a different numbering system. Thus, it is important to stick with a standard. The accepted standard of Digital Quran is 6 236 ayah and 77 429 words, see more details below. 
 
 {% hint style="info" %}
-This standard is the most widely used and also is a standard of Corpus Quran project, so you can easily map our data with other project's data.
+We do not claim that this standard is "the right one" and others are wrong. Just, this standard is the most widely used and also is a standard of Corpus Quran project, so you can easily map our data with other project's data.
 {% endhint %}
 
 #### Surahs
