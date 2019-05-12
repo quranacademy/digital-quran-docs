@@ -11,7 +11,7 @@ The project consists of files sharing page and API. **Files sharing page** is ju
 | Translations \(by ayah\) | Available and keep adding |
 | Translations word-by-word | Available and keep adding |
 | Quran word images \(i.e. this is text in image format that you can see at [Quran Academy](https://en.quranacademy.org/quran/2)\) | Preparing data |
-| Quran audio | In plans \(by surah, by ayah, by word\) |
+| Quran audio | Future plans \(by surah, by ayah, by word\) |
 
 We also have an **API**. You do not have to build your own Quranic back-end, we have done it for you :\) Instead you can just focus on your front-end or app side. [Get started](api/getting-started.md) with the API.
 
