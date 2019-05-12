@@ -1,6 +1,6 @@
 # Introduction
 
-**Digital Quran** is a platform created by [Quran Academy](https://quranacademy.org) for distribution data related to the Quran. The mission of this project is to make the Noble Quran easily available everywhere by sharing all data that is available for of produced by Quran Academy. All the developers of websites and services have to go through the same problems of finding, downloading, verifying the various Quran related data like translations, images, fonts etc. Even if they do so there are still more problems with keeping information updated. The idea of this project is to develop and support common standards for Quran related information exchange and share data texts, images etc allowing people to concentrate on the core work itself.
+**Digital Quran** is a platform created by [Quran Academy](https://quranacademy.org) for the distribution of data related to the Quran. The mission of this project is to make the Noble Quran easily available everywhere by sharing all data that is prepared and published by Quran Academy. All developers of the websites and applications have to go through the same problems of finding, downloading, verifying various Quran related data: like translations, images, fonts etc. Even if they do so there are still problems with keeping information updated. The idea of this project is to develop and support common standards for Quran related information exchange and sharing of data texts, images etc allowing people to rather concentrate on the core work itself.
 
 ### The project structure
 
