@@ -93,7 +93,7 @@ This sections provides links to the sources where the latest version of the tran
 
 ### copyrights
 
-The section provides information about copyrights, like license, right-holder and special conditions of the license.
+The section provides information about copyrights, like license, right-holder and special conditions of the license. Please read more about licenses here [Common Creatives](https://creativecommons.org/).
 
 | PROPERTY | EXAMPLE | DESCRIPTION |
 | :--- | :--- | :--- |

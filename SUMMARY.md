@@ -16,6 +16,7 @@
 * [Why Quran Academy website has more data than Digital Quran?](faq/why-quran-academy-website-has-more-data-than-digital-quran.md)
 * [What if I found a mistake or a typo in a translation?](faq/what-if-i-found-a-mistake-or-a-typo-in-a-translation.md)
 * [Who is using this standard?](faq/who-uses-this-project.md)
+* [How can I use content?](faq/how-can-i-use-content.md)
 
 ## API
 
