@@ -9,7 +9,7 @@
 * [Translation files: description](standards-and-conventions/translation-files-structure.md)
 * [Translation files: examples](standards-and-conventions/translation-files-examples.md)
 * [Translation texts](standards-and-conventions/translation-texts.md)
-* [Files parsing examples](standards-and-conventions/files-parsing-examples.md)
+* [Code examples](standards-and-conventions/files-parsing-examples.md)
 
 ## FAQ
 

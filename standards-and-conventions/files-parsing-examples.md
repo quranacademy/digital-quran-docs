@@ -4,7 +4,7 @@ description: >-
   usecases
 ---
 
-# Files parsing examples
+# Code examples
 
 ## Get translations in &lt;surah, ayah \[, word\], text&gt; format
 
