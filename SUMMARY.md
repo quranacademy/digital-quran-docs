@@ -11,6 +11,11 @@
 * [Translation texts](standards-and-conventions/translation-texts.md)
 * [Code examples](standards-and-conventions/files-parsing-examples.md)
 
+## Content & Releases <a id="content-and-release-plan"></a>
+
+* [Translations](content-and-release-plan/translations.md)
+* [Tafseers](content-and-release-plan/tafseers.md)
+
 ## FAQ
 
 * [How can I contribute?](faq/how-can-i-contribute.md)
