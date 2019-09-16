@@ -14,7 +14,7 @@ There are some differences in formatting for JSON and XML. Although they are min
 
 **ENCODING**. All translations texts are UTF-8 encoded.
 
-**QUOTATION MARKS** should be conventional for the language — not straight quotes. Conventional quotation marks for each language are available [here](https://en.wikipedia.org/wiki/Quotation_mark).
+**QUOTATION MARKS \(**«»**\)** should be conventional for the language — not straight quotes. Conventional quotation marks for each language are available [here](https://en.wikipedia.org/wiki/Quotation_mark).
 
 **HYPHENS.** Double\(`--`\) or triple hyphens \(`---`\) are replaced with a single em dash \(`—`\) with a white space before and after it. Single hyphen is used only for word connection, like in "follow-up" word. In such case hyphen has no white space before or after.
 
@@ -94,7 +94,7 @@ And single brackets \(`[...]`\) for words which are added by the author for a sp
 "ayahs": [
     {
         "number": 1,
-        "text": "Ние ти дадохме [о, Мухаммад реката] ал-Каусар.[1]\n\n[1] “Каусар” е името на реката на изобилието, дарена на Мухаммед, мир нему, същевременно означава “голямо изобилие”. В тази сура се повелява да се прави жертвоприношение и се дава отговор на съдружаващите, които обиждали Пророка, наричайки го “Лишения” (“Ал-абтар”), защото нямал мъжка рожба."
+        "text": "Ние ти дадохме [о, Мухаммад реката] ал-Каусар.[^1]\n\n[^1]: “Каусар” е името на реката на изобилието, дарена на Мухаммед, мир нему, същевременно означава “голямо изобилие”. В тази сура се повелява да се прави жертвоприношение и се дава отговор на съдружаващите, които обиждали Пророка, наричайки го “Лишения” (“Ал-абтар”), защото нямал мъжка рожба."
     },
     ...
 ]
@@ -117,12 +117,12 @@ And single brackets \(`[...]`\) for words which are added by the author for a sp
 {% endtab %}
 {% endtabs %}
 
-JSON format is simply a string for:
+JSON format is simply a makdown-formatted footnote:
 
 ```text
-Ние ти дадохме [о, Мухаммад реката] ал-Каусар.[1]
+Ние ти дадохме [о, Мухаммад реката] ал-Каусар.[^1]
 
-[1] “Каусар” е името на реката на изобилието, дарена на Мухаммед, мир нему, същевременно означава “голямо изобилие”. В тази сура се повелява да се прави жертвоприношение и се дава отговор на съдружаващите, които обиждали Пророка, наричайки го “Лишения” (“Ал-абтар”), защото нямал мъжка рожба.
+[^1]: “Каусар” е името на реката на изобилието, дарена на Мухаммед, мир нему, същевременно означава “голямо изобилие”. В тази сура се повелява да се прави жертвоприношение и се дава отговор на съдружаващите, които обиждали Пророка, наричайки го “Лишения” (“Ал-абтар”), защото нямал мъжка рожба.
 ```
 
 where `\n` is used for a line-break.
