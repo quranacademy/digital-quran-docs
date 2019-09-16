@@ -14,6 +14,7 @@
 ## Content & Releases <a id="content-and-release-plan"></a>
 
 * [Translations](content-and-release-plan/translations.md)
+* [Word-by-word translations](content-and-release-plan/word-by-word-translations.md)
 * [Tafseers](content-and-release-plan/tafseers.md)
 
 ## FAQ
