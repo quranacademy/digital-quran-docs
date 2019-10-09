@@ -46,7 +46,7 @@ Access token is invalid.
 
 "Language" header is not provided.
 
-**UNKNOWN\_LANGUAGE\_PROVIDED**
+**UNKNOWN\_LANGUAGE**
 
 Unknown language code provided. See the [list of available languages](https://github.com/quranacademy/digital-quran-docs/tree/5ac35f82b33be44b98843418794dc47bf7dcdf68/api/available-languages.md).
 
