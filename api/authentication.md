@@ -29,7 +29,7 @@ All endpoints of the API are separated to public and user specific.
 
 To authenticate requests to public endpoints you need to send the application access token in `Access-Token` HTTP header.
 
-## User specicic endpoints authentication
+## User specific endpoints authentication
 
 Not implemented yet.
 
