@@ -32,7 +32,7 @@ Endpoint not found. Check request URL is correct.
 
 **METHOD\_NOT\_ALLOWED**
 
-The request method is not supported by the target endpoint.
+The request method is not POST.
 
 **INVALID\_REQUEST**
 
