@@ -34,9 +34,10 @@ Endpoint not found. Check request URL is correct.
 
 The request method is not supported by the target endpoint.
 
-**TOO\_MANY\_REQUESTS**
+**INVALID\_REQUEST**
 
-Too many requests.
+1. "Content-Type" header is not provided or it not equals "application/json".
+2. The request is not a valid JSON.
 
 **ACCESS\_TOKEN\_NOT\_PROVIDED**
 
@@ -45,6 +46,10 @@ Access token is not provided.
 **INVALID\_ACCESS\_TOKEN**
 
 Access token is invalid.
+
+**TOO\_MANY\_REQUESTS**
+
+Too many requests. Check out [limits](limits.md) for more information.
 
 **LANGUAGE\_NOT\_PROVIDED**
 
