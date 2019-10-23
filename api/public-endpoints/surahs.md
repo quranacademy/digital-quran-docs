@@ -48,7 +48,7 @@ None
 ### URL
 
 ```text
-GET /surah
+/surah
 ```
 
 ### Parameters
