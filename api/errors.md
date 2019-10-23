@@ -30,6 +30,10 @@ Unknown error occurred. Typically a server bug.
 
 Endpoint not found. Check request URL is correct.
 
+**METHOD\_NOT\_ALLOWED**
+
+The request method is not supported by the target endpoint.
+
 **TOO\_MANY\_REQUESTS**
 
 Too many requests.
