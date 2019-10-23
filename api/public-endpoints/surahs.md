@@ -5,7 +5,7 @@
 ### URL
 
 ```text
-GET /surahs
+/surahs
 ```
 
 ### Parameters
