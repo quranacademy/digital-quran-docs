@@ -30,6 +30,10 @@ Unknown error occurred. Typically a server bug.
 
 Endpoint not found. Check request URL is correct.
 
+**RESOURCE\_NOT\_FOUND**
+
+Requested resource (translation, for example) not found.
+
 **METHOD\_NOT\_ALLOWED**
 
 The request method is not POST.
