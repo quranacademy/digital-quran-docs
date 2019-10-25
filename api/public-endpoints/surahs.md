@@ -14,7 +14,7 @@ None
 
 ### Response
 
-```javascript
+```json
 {
     "data": [
         {
@@ -59,7 +59,7 @@ None
 
 ### Response
 
-```javascript
+```json
 {
     "data": {
         "number": 1,
