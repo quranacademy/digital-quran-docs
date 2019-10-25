@@ -35,7 +35,11 @@
 * [Pagination](api/pagination.md)
 * [CORS](api/cors.md)
 * [Public endpoints](api/public-endpoints/README.md)
+  * [Languages](api/public-endpoints/languages.md)
   * [Surahs](api/public-endpoints/surahs.md)
+  * [Ayahs](api/public-endpoints/ayahs.md)
+  * [Words](api/public-endpoints/words.md)
+  * [Translations](api/public-endpoints/translations.md)
 
 ## Other
 
