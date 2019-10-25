@@ -10,7 +10,7 @@
 
 ### Parameters
 
-None
+None.
 
 ### Response
 
