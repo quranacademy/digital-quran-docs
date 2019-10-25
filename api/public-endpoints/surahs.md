@@ -53,9 +53,9 @@ None
 
 ### Parameters
 
-| Name | Type | Description |
+| Name | Type | Description | Required |
 | :--- | :--- | :--- |
-| surah\_number | integer | The number of a surah. |
+| surah\_number | integer | The number of a surah. | Yes |
 
 ### Response
 
