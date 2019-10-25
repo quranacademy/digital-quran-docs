@@ -54,7 +54,7 @@ None
 ### Parameters
 
 | Name | Type | Description | Required |
-| :--- | :--- | :--- |
+| :--- | :--- | :--- | :--- |
 | surah\_number | integer | The number of a surah. | Yes |
 
 ### Response
