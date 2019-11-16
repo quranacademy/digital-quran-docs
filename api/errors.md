@@ -32,7 +32,7 @@ Endpoint not found. Check request URL is correct.
 
 **RESOURCE\_NOT\_FOUND**
 
-Requested resource (translation, for example) not found.
+Requested resource \(translation, for example\) not found.
 
 **METHOD\_NOT\_ALLOWED**
 

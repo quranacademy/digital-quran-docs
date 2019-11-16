@@ -14,7 +14,7 @@ None.
 
 ### Response
 
-```json
+```javascript
 {
     "data": [
         {
@@ -38,3 +38,4 @@ None.
     ]
 }
 ```
+

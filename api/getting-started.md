@@ -15,3 +15,4 @@ Base API URL is [https://digital-quran.quranacademy.org](https://digital-quran.q
 * Every request to the API must be authenticated.
 * API always returns HTTP code 200 if the request handled was correctly handled by the server.
 * API returns data in JSON format.
+

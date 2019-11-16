@@ -1,8 +1,8 @@
 # Translations
 
-| Language | Name | Release date |
-| :--- | :--- | :--- |
-|  |  |  |
+| Language | Name | Release date | Source |
+| :--- | :--- | :--- | :--- |
+|  |  |  |  |
 
 
 

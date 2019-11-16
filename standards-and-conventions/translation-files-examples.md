@@ -16,8 +16,7 @@ Here you can find examples of [by-ayah translation](translation-files-examples.m
 
 {% tabs %}
 {% tab title="JSON" %}
-{% code-tabs %}
-{% code-tabs-item title="By-ayah translation exmaple" %}
+{% code title="By-ayah translation exmaple" %}
 ```javascript
 {
     "translation": {
@@ -108,8 +107,7 @@ Here you can find examples of [by-ayah translation](translation-files-examples.m
     }
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 {% endtab %}
 
 {% tab title="XML" %}
@@ -209,8 +207,7 @@ Here you can find examples of [by-ayah translation](translation-files-examples.m
 
 {% tabs %}
 {% tab title="JSON" %}
-{% code-tabs %}
-{% code-tabs-item title="word-by-word translation exmaple" %}
+{% code title="word-by-word translation exmaple" %}
 ```javascript
 {
     "translation": {
@@ -431,13 +428,11 @@ Here you can find examples of [by-ayah translation](translation-files-examples.m
     }
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 {% endtab %}
 
 {% tab title="XML" %}
-{% code-tabs %}
-{% code-tabs-item title="word-by-word translation exmaple" %}
+{% code title="word-by-word translation exmaple" %}
 ```markup
 <?xml version="1.0" encoding="utf-8"?>
 <translation>
@@ -562,8 +557,7 @@ Here you can find examples of [by-ayah translation](translation-files-examples.m
     </content>
 </translation>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 

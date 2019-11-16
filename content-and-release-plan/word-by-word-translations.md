@@ -1,6 +1,6 @@
 # Word-by-word translations
 
-| Language | Release date |
-| :--- | :--- |
-|  |  |
+| Language | Release date | Source |
+| :--- | :--- | :--- |
+|  |  |  |
 

@@ -34,3 +34,4 @@ Example of client ID and client secret:
 CLIENT_ID: BdWshXtYr8P6bVkAD8yuMkfeBGIkLmwlz1vJMYFkxpJ8WtURmfkwH9PvdjjukQGL
 CLIENT_SECRET: DF1n0DFdq02xjnBZDpEpfJOZ8joMF1dKHGTnX1bRoBph0XPN4zPO1VX0ZLpAvgAX
 ```
+

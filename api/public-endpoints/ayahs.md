@@ -12,15 +12,15 @@
 
 | Name | Type | Description | Required | Default |
 | :--- | :--- | :--- | :--- | :--- |
-| surah_number | integer | The number of a surah. | Yes | None |
-| include_arabic_text | boolean | Add text in arabic? | No | false |
-| translations | string[] | Codes of translations. | No | None |
-| start_ayah_number | integer | The number of the start ayah (if you want to get a range of ayahs). | No | None |
-| end_ayah_number | integer | The number of the end ayah (if you want to get a range of ayahs). | No | None |
+| surah\_number | integer | The number of a surah. | Yes | None |
+| include\_arabic\_text | boolean | Add text in arabic? | No | false |
+| translations | string\[\] | Codes of translations. | No | None |
+| start\_ayah\_number | integer | The number of the start ayah \(if you want to get a range of ayahs\). | No | None |
+| end\_ayah\_number | integer | The number of the end ayah \(if you want to get a range of ayahs\). | No | None |
 
 Example:
 
-```json
+```javascript
 {
     "surah_number": 1,
     "include_arabic_text": true,
@@ -30,7 +30,7 @@ Example:
 
 ### Response
 
-```json
+```javascript
 {
     "data": [
         {
@@ -64,3 +64,4 @@ Example:
     ]
 }
 ```
+

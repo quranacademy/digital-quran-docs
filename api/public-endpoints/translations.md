@@ -12,11 +12,11 @@
 
 | Name | Type | Description | Required |
 | :--- | :--- | :--- | :--- |
-| language | string | The code of a language (if you want to get translations in a specific language). | No |
+| language | string | The code of a language \(if you want to get translations in a specific language\). | No |
 
 ### Response
 
-```json
+```javascript
 {
     "data": [
         {
@@ -32,3 +32,4 @@
     ]
 }
 ```
+

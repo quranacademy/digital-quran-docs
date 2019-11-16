@@ -24,8 +24,7 @@ For naming Arabic / Quranic terms transliteration of singular form is used. A tr
 
 {% tabs %}
 {% tab title="JSON" %}
-{% code-tabs %}
-{% code-tabs-item title="JSON" %}
+{% code title="JSON" %}
 ```javascript
 contacts: [
     {
@@ -38,13 +37,11 @@ contacts: [
     }
 ]
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 {% endtab %}
 
 {% tab title="XML" %}
-{% code-tabs %}
-{% code-tabs-item title="XML" %}
+{% code title="XML" %}
 ```markup
 <contacts>
     <contact>
@@ -57,8 +54,7 @@ contacts: [
     </contact>
 </contacts>
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endcode %}
 {% endtab %}
 {% endtabs %}
 
