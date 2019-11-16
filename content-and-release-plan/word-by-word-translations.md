@@ -11,10 +11,10 @@ description: >-
 | Azerbaijan | translation in progress | pending | Quran Academy Org |
 | English | updating translation | pending | GlobalQuran.com |
 | French | translation in progress | pending | Quran Academy Org |
-| German | no changes | pending | Quran Academy Org |
+| German | no changes | December 2019 | Quran Academy Org |
 | Indonesian | no changes | pending | GreentechApps |
-| Ingush | no changes | pending | Quran Academy Org |
-| Russian | no changes | pending | Quran Academy Org |
+| Ingush | no changes | December 2019 | Quran Academy Org |
+| Russian | no changes | March 2020 | Quran Academy Org |
 | Tamil | translation in progress | pending | Quran Academy Org |
 | Turkish | no changes | pending | - |
 | Urdu | updating data | pending | Quran.com |
