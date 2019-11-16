@@ -1,6 +1,8 @@
 # Word-by-word translations
 
-| Language | Release date | Source |
-| :--- | :--- | :--- |
-|  |  |  |
+| Language | Status | Release date | Source |
+| :--- | :--- | :--- | :--- |
+| Urdu | updating data | pending | Quran.com |
+
+
 
