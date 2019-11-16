@@ -8,14 +8,14 @@ description: >-
 
 | Language | Status | Release date | Source |
 | :--- | :--- | :--- | :--- |
-| Azerbaijan | translation in progress | pending | Quran Academy Org |
+| Azerbaijan | translation in progress | pending | QuranAcademy.org |
 | English | updating translation | pending | GlobalQuran.com |
-| French | translation in progress | pending | Quran Academy Org |
-| German | no changes | December 2019 | Quran Academy Org |
+| French | translation in progress | pending | QuranAcademy.org |
+| German | no changes | December 2019 | QuranAcademy.org |
 | Indonesian | no changes | pending | GreentechApps |
-| Ingush | no changes | December 2019 | Quran Academy Org |
-| Russian | no changes | March 2020 | Quran Academy Org |
-| Tamil | translation in progress | pending | Quran Academy Org |
+| Ingush | no changes | December 2019 | QuranAcademy.org |
+| Russian | no changes | March 2020 | QuranAcademy.org |
+| Tamil | translation in progress | pending | QuranAcademy.org |
 | Turkish | no changes | pending | - |
 | Urdu | updating data | pending | Quran.com |
 
