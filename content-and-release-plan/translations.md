@@ -9,7 +9,9 @@ description: >-
 | Language | Translator | Last updated | Release date | Source |
 | :--- | :--- | :--- | :--- | :--- |
 | Azerbaijan | Alihan Musayev | - | December 2019 | Author |
+| Georgian | Rezo Mikeladze | - | December 2019 | Author |
 | Russian | Abu Adel | - | December 2019 | Author |
+| Ukrainian | Mykhailo Yakubovich | - | December 2019 | Author |
 
 
 
