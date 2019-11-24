@@ -1,8 +1,8 @@
 # Tafseers
 
-| Language | Name | Release date | Source |
-| :--- | :--- | :--- | :--- |
-|  |  |  |  |
+| Language | Name | Last updated | Release date | Source |
+| :--- | :--- | :--- | :--- | :--- |
+|  |  |  |  |  |
 
 
 

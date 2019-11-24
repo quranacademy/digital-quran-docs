@@ -6,10 +6,10 @@ description: >-
 
 # Translations
 
-| Language | Translator | Release date | Source |
-| :--- | :--- | :--- | :--- |
-| Azerbaijan | Alihan Musayev | December 2019 | Author |
-| Russian | Abu Adel | December 2019 | Author |
+| Language | Translator | Last updated | Release date | Source |
+| :--- | :--- | :--- | :--- | :--- |
+| Azerbaijan | Alihan Musayev | - | December 2019 | Author |
+| Russian | Abu Adel | - | December 2019 | Author |
 
 
 
