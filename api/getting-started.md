@@ -1,5 +1,9 @@
 # Getting started
 
+{% hint style="warning" %}
+API is currently under development. Stay tuned to the [project repository](https://github.com/quranacademy/digital-quran-docs) on GitHub.
+{% endhint %}
+
 First of all you need to [create an application](creating-an-application.md).
 
 After registering the app you will receive credentials for [authentication](authentication.md).
