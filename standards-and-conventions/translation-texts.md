@@ -117,7 +117,7 @@ And single brackets \(`[...]`\) for words which are added by the author for a sp
 {% endtab %}
 {% endtabs %}
 
-JSON format is simply a makdown-formatted footnote:
+JSON format is simply a markdown-formatted footnote:
 
 ```text
 Ние ти дадохме [о, Мухаммад реката] ал-Каусар.[^1]
