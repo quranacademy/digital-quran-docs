@@ -18,7 +18,7 @@ There are some differences in formatting for JSON and XML. Although they are min
 
 **HYPHENS.** Double\(`--`\) or triple hyphens \(`---`\) are replaced with a single em dash \(`—`\) with a white space before and after it. Single hyphen is used only for word connection, like in "follow-up" word. In such case hyphen has no white space before or after.
 
-**PUNCTUATION**. The language's punctuation is used. For example, Farsi translation has Farsi comma, not Latin \(ANCII\).
+**PUNCTUATION**. The language's punctuation is used. For example, Farsi translation has Farsi comma, not Latin \(ASCII\).
 
 ## Merged translations
 
