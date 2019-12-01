@@ -8,13 +8,13 @@ The project is open for contribution because we value sharing of thawāb \("rewa
 
 There are many different ways to support the project:
 
-**Start using the platform and the standards.** Together, using and developing common standards and platforms, we can make Quranic apps and websites better, in sha'Allah. Instead of developing your own standards and formats, let's develop common ones, so everyone could benefit. And this is all this project is about.
+**Start using the platform and the standards.** Together, using and developing common standards and platforms, we can make Quranic apps and websites better, in sha'Allah. Instead of developing your standards and formats, let's develop common ones, so everyone could benefit. And this is all this project is about.
 
 **Spread the word.** The more people involved, the more we all benefit. Talk about the project with your friends. Share the link in your social media accounts. Add a link to your website or app.
 
 **Give us feedback.** Help us to make the standards and the content better. Tell us what you find helpful and how we can improve. Or just up-vote the issues that you are the most interested in seeing solved.
 
-**Share content.** If you have a Quranic content \(translation, tafseer, etc.\) which you can legally share, we would be glad to format it according to the standards and share it on Digital Quran.
+**Share content.** If you have Quranic content \(translation, tafseer, etc.\) which you can legally share, we would be glad to format it according to the standards and share it on Digital Quran.
 
-**Help formatting the content.** It is a lot of work to make existing translations to fit the standards. Many translations and tafseers are being formatted and validated manually before we can start to share them. So, we are looking forward to volunteers ready to help. With your help we can share more content faster.
+**Help to format the content.** It is a lot of work to make existing translations to fit the standards. Many translations and tafseers are being formatted and validated manually before we can start to share them. So, we are looking forward to volunteers ready to help. With your help, we can share more content faster.
 
