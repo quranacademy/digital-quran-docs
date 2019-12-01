@@ -72,7 +72,7 @@ for (surah of translation.content.surahs) {
 You can do the same, using **XML** formatting. 
 
 {% hint style="info" %}
-JavaScript is an exception, since one of the most popular ways to read xml in node.js is transforming xml to json. So, for JavaScript users it is recommended to stick with json format.
+JavaScript is an exception since one of the most popular ways to read xml in node.js is transforming xml to json. So, for JavaScript users, it is recommended to stick with json format.
 {% endhint %}
 
 {% tabs %}
