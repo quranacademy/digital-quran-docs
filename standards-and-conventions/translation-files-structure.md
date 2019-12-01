@@ -4,14 +4,14 @@ description: Here you can find standards related to translation files
 
 # Translation files: description
 
-All translations available in two formats: XML and JSON in UTF-8 encoding. Data in a file is split into two parts: 1\) meta-data, like authors, licence, etc. -- called `meta` in files, 2\) translation itself -- called `content` in files.
+All translations available in two formats: XML and JSON in UTF-8 encoding. Data in a file is split into two parts: 1\) meta-data, like authors, license, etc. -- called `meta` in files, 2\) translation itself -- called `content` in files.
 
 {% hint style="info" %}
-Translations are of two types: by-ayah and word-by-word. Structure of the both types is mostly the same. The only difference is in`ayah` object in `content` part. See [Translation itself \(content\)](translation-files-structure.md#translation-itself-content) section below for the details.
+Translations are of two types: by-ayah and word-by-word. The structure of both types is mostly the same. The only difference is in the`ayah` object in the`content` part. See [Translation itself \(content\)](translation-files-structure.md#translation-itself-content) section below for the details.
 {% endhint %}
 
 {% hint style="danger" %}
-Some by-ayah translations and most of word-by-word translations has joined translations, i.e. when two \(or more\) words translated as one. See [Russian word-by-word translation of 90:14 at Quran Academy](https://ru.quranacademy.org/quran/90) for an example. Check [Translation texts](translation-texts.md) for more details.
+Some by-ayah translations and most of the word-by-word translations have joined translations, i.e. when two \(or more\) words translated as one. See [Russian word-by-word translation of 90:14 at Quran Academy](https://ru.quranacademy.org/quran/90) for an example. Check [Translation texts](translation-texts.md) for more details.
 {% endhint %}
 
 ## Meta-data \(meta\)
@@ -20,7 +20,7 @@ Some by-ayah translations and most of word-by-word translations has joined trans
 **NOTE.** Information in examples is not reliable! Please, do not treat it as real information. Mostly it is made up to just give you an idea of how values look like.
 {% endhint %}
 
-Meta-data \(`meta` in files\) provides information about the translation, like authors, contacts, license, etc. All information is provided in, at least, two languages: language of the translation and English. Meta-data section has the following structure:
+Meta-data \(`meta` in files\) provides information about the translation, like authors, contacts, licenses, etc. All information is provided in, at least, two languages: the language of the translation and English. Meta-data section has the following structure:
 
 ### language
 
@@ -44,7 +44,7 @@ Provides names of the translation in different languages.
 
 ### about
 
-`about` section provides description of the translation. It is like a text in the first few pages of a book.
+`about` section provides a description of the translation. It is like a text in the first few pages of a book.
 
 | PROPERTY | EXAMPLE | DESCRIPTION |
 | :--- | :--- | :--- |
@@ -85,11 +85,11 @@ are optional sections with the same content:
 
 ### riwaya
 
-This sections contains only one value -- riwaya \(transmission\) on which the translation is based, i.e. Hafs, Warsh, Qaloon, etc. By default it is assumed that the translation in based on Hafs riwaya. More information about riwaya, qira'at, and the difference between them can be found [here](https://en.wikipedia.org/wiki/Qira%27at).
+This section contains only one value -- riwaya \(transmission\) on which the translation is based, i.e. Hafs, Warsh, Qaloon, etc. By default, it is assumed that the translation in based on Hafs riwaya. More information about riwaya, qira'at, and the difference between them can be found [here](https://en.wikipedia.org/wiki/Qira%27at).
 
 ### lastVersionSources
 
-This sections provides links to the sources where the latest version of the translation can be found. For example, some authors have their own web-sites where they update their translation. However our project keeps track of updates, so you can just simply sync with Digital Quran.
+This section provides links to the sources where the latest version of the translation can be found. For example, some authors have websites where they update their translation. However our project keeps track of updates, so you can just simply sync with Digital Quran.
 
 ### copyrights
 
@@ -103,7 +103,7 @@ The section provides information about copyrights, like license, right-holder an
 
 ### issueContacts
 
-List of persons and/or organizations that should be contacted in case if a error or a typo is found, or there is suggestion about a translation, etc. The sections consists of object of the following structure:
+List of persons and/or organizations that should be contacted in case of an error or a typo is found, or there is a suggestion about a translation, etc. The section consists of objects of the following structure:
 
 | PROPERTY | EXAMPLE | DESCRIPTION |
 | :--- | :--- | :--- |
@@ -123,10 +123,10 @@ For easier keep track of changes in the translation, three date-time fields are 
 
 ## Translation itself \(content\)
 
-The text of the translation is placed in `content` section. For both translation types \(by-ayah and word-by-word\) it has mostly the same structure described below.
+The text of the translation is placed in the `content` section. For both translation types \(by-ayah and word-by-word\) it has mostly the same structure described below.
 
 {% hint style="warning" %}
-Some translations can be incomplete. For that reason we provide a number for each surah, ayah, and word. Use them instead of index.
+Some translations can be incomplete. For that reason, we provide a number for each surah, ayah, and word. Use them instead of index.
 {% endhint %}
 
 ### **surahs**
@@ -142,11 +142,11 @@ Some translations can be incomplete. For that reason we provide a number for eac
 ### ayahs
 
 {% hint style="danger" %}
-Some by-ayah translations and most of word-by-word translations has merged translations, i.e. when two \(or more\) words translated as one. See [Russian word-by-word translation of 90:14 at Quran Academy](https://ru.quranacademy.org/quran/90) for an example. Check [Translation texts](translation-texts.md#merged-translations) for more details.
+Some by-ayah translations and most of the word-by-word translations have merged translations, i.e. when two \(or more\) words translated as one. See [Russian word-by-word translation of 90:14 at Quran Academy](https://ru.quranacademy.org/quran/90) for an example. Check [Translation texts](translation-texts.md#merged-translations) for more details.
 {% endhint %}
 
 {% hint style="danger" %}
-There are some differences in formatting translation text in JSON and XML. Although they are minor, it is important to know about them. See [Translation texts](translation-texts.md#translation-comments-and-footnotes) section below for details.
+There are some differences in formatting translation text in JSON and XML. Although they are minor, it is important to know about them. See the [Translation texts](translation-texts.md#translation-comments-and-footnotes) section below for details.
 {% endhint %}
 
 {% tabs %}

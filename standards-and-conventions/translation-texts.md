@@ -4,10 +4,10 @@ description: Here you can find standards related to format of a translation text
 
 # Translation texts
 
-Texts of translations are formatted in special standardized way which is described on this page.
+Texts of translations are formatted in a special standardized way which is described on this page.
 
 {% hint style="warning" %}
-There are some differences in formatting for JSON and XML. Although they are minor, it is important to know about them. See [Translation texts](translation-texts.md#translation-comments-and-footnotes) section below for details.
+There are some differences in formatting for JSON and XML. Although they are minor, it is important to know about them. See the [Translation texts](translation-texts.md#translation-comments-and-footnotes) section below for details.
 {% endhint %}
 
 ## Symbols style guide
@@ -16,17 +16,17 @@ There are some differences in formatting for JSON and XML. Although they are min
 
 **QUOTATION MARKS \(**«»**\)** should be conventional for the language — not straight quotes. Conventional quotation marks for each language are available [here](https://en.wikipedia.org/wiki/Quotation_mark).
 
-**HYPHENS.** Double\(`--`\) or triple hyphens \(`---`\) are replaced with a single em dash \(`—`\) with a white space before and after it. Single hyphen is used only for word connection, like in "follow-up" word. In such case hyphen has no white space before or after.
+**HYPHENS.** Double\(`--`\) or triple hyphens \(`---`\) are replaced with a single em dash \(`—`\) with white space before and after it. Single hyphen is used only for word connection, like in "follow-up" word. In such case, hyphen has no white space before or after.
 
-**PUNCTUATION**. The language's punctuation is used. For example, Farsi translation has Farsi comma, not Latin \(ASCII\).
+**PUNCTUATION**. The language's punctuation is used. For example, Farsi translation has a Farsi comma, not Latin \(ASCII\).
 
 ## Merged translations
 
-Some by-ayah translations and most of word-by-word translations have merged translations: cases when multiple consecutive words \(or ayah for by-ayah translations\) share one translation. For example, the first two words in the following picture have a merged word-by-word translation.
+Some by-ayah translations and most of the word-by-word translations have merged translations: cases when multiple consecutive words \(or ayah for by-ayah translations\) share one translation. For example, the first two words in the following picture have a merged word-by-word translation.
 
 ![An example of a merged word-by-word translation](../.gitbook/assets/screenshot-from-2019-04-10-19-20-46.png)
 
-In such cases, translation text is put in only in the first \(word or ayah\) in the sequence. As for the following, their translation text is a one symbol -- `*`. I.e. for the provided example above translation looks like so:
+In such cases, translation text is put in only in the first \(word or ayah\) in the sequence. As for the following, their translation text is one symbol -- `*`. I.e. for the provided example above translation looks like so:
 
 {% tabs %}
 {% tab title="JSON" %}
@@ -72,7 +72,7 @@ We try our best to stick with this convention of separation between `(`, `[`, an
 
 Translation comments are of two types
 
-**1. Short inline comments.** These comments are short specifying comments which must be placed inline with the translation. Both single parenthesis and single brackets are allowed for them. 
+**1. Short inline comments.** These comments are short specifying comments which must be placed inline with the translation. Both single parenthesis and single brackets are allowed for them.
 
 The convention is to use single parenthesis \(`(...)`\) for words which are implicitly implied in the original Arabic text. Like in the following example below:
 
@@ -117,7 +117,7 @@ And single brackets \(`[...]`\) for words which are added by the author for a sp
 {% endtab %}
 {% endtabs %}
 
-JSON format is simply a markdown-formatted footnote:
+JSON format is simply a makdown-formatted footnote:
 
 ```text
 Ние ти дадохме [о, Мухаммад реката] ал-Каусар.[^1]
@@ -126,6 +126,4 @@ JSON format is simply a markdown-formatted footnote:
 ```
 
 where `\n` is used for a line-break.
-
-
 
