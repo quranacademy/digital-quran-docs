@@ -1,5 +1,5 @@
 ---
-description: Here you can find standards related to the Quran itself
+description: Here you can find standards related to the Quran itself.
 ---
 
 # Quran
