@@ -2,11 +2,11 @@
 
 Every app has an application access token, client ID and client secret.
 
-All endpoints of the API are separated to public and user specific.
+All endpoints of the API are separated into public and user-specific.
 
-**Public endpoints** require only an application access token. For example, getting list of surahs does not require a user to log in.
+**Public endpoints** require only an application access token. For example, getting a list of surahs does not require a user to log in.
 
-**User specific endpoints** require authentication from a specific user.
+**User-specific endpoints** require authentication from a specific user.
 
 ## Public endpoints authentication
 

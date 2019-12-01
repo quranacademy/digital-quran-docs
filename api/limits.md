@@ -2,14 +2,14 @@
 
 Requests are rate limited to 600 requests per minute.
 
-When you make a request to the API you will receive the following headers in the response:
+When you request the API you will receive the following headers in the response:
 
 * **Rate-Limit**: What’s the rate limit available to you. The default is 600.
 * **Rate-Limit-Remaining**: How many requests are available to you. This will be 600 minus all the requests you have done.
 * **Rate-Limit-Over**: How many requests over your quota you have made.
 * **Rate-Limit-Reset**: The UTC date and time of when your quota will be reset.
 
-You can see how much of your quota has been used by checking this headers.
+You can see how much of your quota has been used by checking these headers.
 
 Example:
 

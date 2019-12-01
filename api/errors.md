@@ -1,6 +1,6 @@
 # Errors
 
-* If the server returned status code not equals 200 then an error occured.
+* If the server returned status code not equals 200 then an error occurred.
 * You should always check that the response is a valid JSON.
 
 If an error occurs during the request, the server will return the response in the following format:
@@ -14,9 +14,9 @@ If an error occurs during the request, the server will return the response in th
 }
 ```
 
-The response status code will be 200, not 4xx or 5xx, because it's not a REST API. If the server returned a response with code 4xx or 5xx it means that something went wrong and the server couldn't handle a error correctly, so the response may be an invalid JSON.
+The response status code will be 200, not 4xx or 5xx, because it's not a REST API. If the server returned a response with code 4xx or 5xx it means that something went wrong and the server couldn't handle an error correctly, so the response may be an invalid JSON.
 
-You have to handle the both cases: if the response status code is not equals 200 and if the response contains the field "error".
+You have to handle both cases: if the response status code does not equals 200 and if the response contains the field "error".
 
 Every endpoint may have it's own error codes but there are also common error codes.
 
@@ -67,7 +67,7 @@ Unknown language code provided. See the [list of available languages](https://gi
 
 Invalid parameter\(s\) provided.
 
-This error means that some of passed parameters are invalid. In response you will get `validation_errors` field with validation error messages.
+This error means that some of the passed parameters are invalid. In response, you will get `validation_errors` field with validation error messages.
 
 Example:
 
