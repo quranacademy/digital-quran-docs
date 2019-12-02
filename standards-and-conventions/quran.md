@@ -26,7 +26,7 @@ The accepted standard of the Digital Quran is 6 236 ayahs. The main sources of d
 * In the 9th surah \(At-Tawbah\): is not presented, i.e. there is no basmala at the beginning of it at all,
 * In all other surahs: it is presented but not considered as an ayah of the surah
 
-  Ayahs consist of words. The number of words in an ayah variate from 1 up to 128 \(ayah 282 of the 2nd surah\). Read more about the word bellow.
+Ayahs consist of words. The number of words in an ayah variate from 1 up to 128 \(ayah 282 of the 2nd surah\). Read more about the word bellow.
 
 ## Words
 
