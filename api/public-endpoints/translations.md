@@ -17,19 +17,17 @@ GET /translations
 ### Response
 
 ```javascript
-{
-    "data": [
-        {
-          "code": "en-saheeh-international",
-          "name": "Saheeh International",
-          "language": "en"
-        },
-        {
-          "code": "ru-kuliev",
-          "name": "Kuliev",
-          "language": "ru"
-        }
-    ]
-}
+[
+    {
+        "code": "en-saheeh-international",
+        "name": "Saheeh International",
+        "language": "en"
+    },
+    {
+        "code": "ru-kuliev",
+        "name": "Kuliev",
+        "language": "ru"
+    }
+]
 ```
 

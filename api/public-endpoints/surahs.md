@@ -15,32 +15,30 @@ None.
 ### Response
 
 ```javascript
-{
-    "data": [
-        {
-          "number": 1,
-          "basmala": false,
-          "revelation_place": "meccan",
-          "ayah_count": 7,
-          "name": {
+[
+    {
+        "number": 1,
+        "basmala": false,
+        "revelation_place": "meccan",
+        "ayah_count": 7,
+        "name": {
             "arabic": "الفاتحة",
             "translation": "The Opening",
             "transliteration": "Al-Fatiha"
-          }
-        },
-        {
-          "number": 2,
-          "basmala": true,
-          "revelation_place": "medinan",
-          "ayah_count": 286,
-          "name": {
+        }
+    },
+    {
+        "number": 2,
+        "basmala": true,
+        "revelation_place": "medinan",
+        "ayah_count": 286,
+        "name": {
             "arabic": "البقرة",
             "translation": "The Cow",
             "transliteration": "Al-Baqara"
-          }
         }
-    ]
-}
+    }
+]
 ```
 
 ## Fetch a specific surah
@@ -61,16 +59,14 @@ GET /surah
 
 ```javascript
 {
-    "data": {
-        "number": 1,
-        "basmala": false,
-        "revelation_place": "meccan",
-        "ayah_count": 7,
-        "name": {
-            "arabic": "الفاتحة",
-            "translation": "The Opening",
-            "transliteration": "Al-Fatiha"
-        }
+    "number": 1,
+    "basmala": false,
+    "revelation_place": "meccan",
+    "ayah_count": 7,
+    "name": {
+        "arabic": "الفاتحة",
+        "translation": "The Opening",
+        "transliteration": "Al-Fatiha"
     }
 }
 ```

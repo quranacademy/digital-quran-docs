@@ -31,61 +31,59 @@ Example:
 ### Response
 
 ```javascript
-{
-    "data": [
-        {
-            "surah_number": 1,
-            "number": 1,
-            "words": [
-                {
-                    "position": 1,
-                    "arabic_text": "بِسْمِ",
-                    "translation": "С именем"
-                },
-                {
-                    "position": 2,
-                    "arabic_text": "ٱللَّهِ",
-                    "translation": "Аллаха,"
-                },
-                {
-                    "position": 3,
-                    "arabic_text": "ٱلرَّحْمَٰنِ",
-                    "translation": "Милостивого,"
-                },
-                {
-                    "position": 4,
-                    "arabic_text": "ٱلرَّحِيمِ",
-                    "translation": "Милосердного!"
-                }
-            ]
-        },
-        {
-            "surah_number": 1,
-            "number": 2,
-            "words": [
-                {
-                    "position": 1,
-                    "arabic_text": "ٱلْحَمْدُ",
-                    "translation": "Хвала"
-                },
-                {
-                    "position": 2,
-                    "arabic_text": "لِلَّهِ",
-                    "translation": "Аллаху,"
-                },
-                {
-                    "position": 3,
-                    "arabic_text": "رَبِّ",
-                    "translation": "Господу"
-                },
-                {
-                    "position": 4,
-                    "arabic_text": "ٱلْعَٰلَمِينَ",
-                    "translation": "миров,"
-                }
-            ]
-        }
-    ]
-}
+[
+    {
+        "surah_number": 1,
+        "number": 1,
+        "words": [
+            {
+                "position": 1,
+                "arabic_text": "بِسْمِ",
+                "translation": "С именем"
+            },
+            {
+                "position": 2,
+                "arabic_text": "ٱللَّهِ",
+                "translation": "Аллаха,"
+            },
+            {
+                "position": 3,
+                "arabic_text": "ٱلرَّحْمَٰنِ",
+                "translation": "Милостивого,"
+            },
+            {
+                "position": 4,
+                "arabic_text": "ٱلرَّحِيمِ",
+                "translation": "Милосердного!"
+            }
+        ]
+    },
+    {
+        "surah_number": 1,
+        "number": 2,
+        "words": [
+            {
+                "position": 1,
+                "arabic_text": "ٱلْحَمْدُ",
+                "translation": "Хвала"
+            },
+            {
+                "position": 2,
+                "arabic_text": "لِلَّهِ",
+                "translation": "Аллаху,"
+            },
+            {
+                "position": 3,
+                "arabic_text": "رَبِّ",
+                "translation": "Господу"
+            },
+            {
+                "position": 4,
+                "arabic_text": "ٱلْعَٰلَمِينَ",
+                "translation": "миров,"
+            }
+        ]
+    }
+]
 ```
 
