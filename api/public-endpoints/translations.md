@@ -5,7 +5,7 @@
 ### URL
 
 ```text
-/translations
+GET /translations
 ```
 
 ### Parameters

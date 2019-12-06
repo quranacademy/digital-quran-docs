@@ -5,7 +5,7 @@
 ### URL
 
 ```text
-/surahs
+GET /surahs
 ```
 
 ### Parameters
@@ -48,7 +48,7 @@ None.
 ### URL
 
 ```text
-/surah
+GET /surah
 ```
 
 ### Parameters

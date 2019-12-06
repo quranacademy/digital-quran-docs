@@ -5,7 +5,7 @@
 ### URL
 
 ```text
-/words
+GET /words
 ```
 
 ### Parameters

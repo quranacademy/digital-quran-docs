@@ -5,7 +5,7 @@
 ### URL
 
 ```text
-/ayahs
+GET /ayahs
 ```
 
 ### Parameters

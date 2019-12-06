@@ -36,7 +36,7 @@ Requested resource \(translation, for example\) not found.
 
 **METHOD\_NOT\_ALLOWED**
 
-The request method is not POST.
+The request method is not supported by a target endpoint.
 
 **INVALID\_REQUEST**
 

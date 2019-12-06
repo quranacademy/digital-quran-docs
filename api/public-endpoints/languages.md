@@ -5,7 +5,7 @@
 ### URL
 
 ```text
-/languages
+GET /languages
 ```
 
 ### Parameters
