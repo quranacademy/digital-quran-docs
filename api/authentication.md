@@ -17,7 +17,7 @@ The access token identifies your app, it is not bound to an IP address and its v
 Example of application access token:
 
 ```text
-T0IfpQun1HpkgNo7LHQP1fjN6cHOo6mReu2Qlts7XZCO5MqhDxTZ8beaXNBQNkCz
+T0IfpQun1HpkgNo7LHQP1fjN6cHOo6mR
 ```
 
 ## User specific endpoints authentication
@@ -31,7 +31,7 @@ The client ID is considered public information and is used to build login URLs o
 Example of client ID and client secret:
 
 ```text
-CLIENT_ID: BdWshXtYr8P6bVkAD8yuMkfeBGIkLmwlz1vJMYFkxpJ8WtURmfkwH9PvdjjukQGL
-CLIENT_SECRET: DF1n0DFdq02xjnBZDpEpfJOZ8joMF1dKHGTnX1bRoBph0XPN4zPO1VX0ZLpAvgAX
+CLIENT_ID: BdWshXtYr8P6bVkAD8yuMkfeBGIkLmwl
+CLIENT_SECRET: DF1n0DFdq02xjnBZDpEpfJOZ8joMF1dK
 ```
 
