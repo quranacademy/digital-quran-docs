@@ -1,0 +1,376 @@
+openapi: 3.0.1
+
+info:
+  title: 'Digital Quran API'
+  version: 1.0.0
+  description: 'Digital Quran is a platform created by [Quran Academy](https://quranacademy.org/) for the distribution of data related to the Quran. The mission of this project is to make the Noble Quran easily available everywhere by sharing all data that is prepared and published by Quran Academy. You can find out more about this project at [gitbook](https://quranacademy.gitbook.io/digital-quran/)'
+
+externalDocs:
+  description: How to get started
+  url: https://quranacademy.gitbook.io/digital-quran/api/getting-started
+
+servers:
+  - url: https://digital-quran.quranacademy.com
+    description: Quran Academy server
+tags:
+  - name: surahs
+    description: A chapter of the Quran
+  - name: ayahs
+    description: A verse of a chapter
+  - name: languages
+    description: Languages of translations
+  - name: translations
+  - name: words
+    description: words of a specific surah
+  
+paths:
+  /surahs:
+    get:
+      tags: 
+        - surahs
+      summary: List all surahs
+      operationId: listSurahs
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Surahs'
+  /surah:
+    get:
+      tags: 
+        - surahs
+      summary: Fetch a specific surah
+      operationId: fetchSurah
+      parameters:
+      - name: surah_number
+        in: query
+        description: The number of a surah
+        required: true
+        schema:
+          type: integer
+          format: int32
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Surah'
+  /ayahs:
+    get:
+      tags:
+        - ayahs
+      summary: List ayahs of a specific surah
+      operationId: listAyahs
+      parameters:
+      - name: surah_number
+        schema:
+          type: integer
+        in: query
+        required: true
+        description: integer The number of a surah
+        example: 1
+      - name: include_arabic_text
+        in: query
+        schema:
+          type: boolean
+          default: false
+        description: 'should response add text in arabic?'
+        example: true
+      - name: translations
+        in: query
+        schema:
+          type: array
+          items:
+            type: string
+        description: 'Codes of translations (taken from translations api)'
+        example: ['en-saheeh-international', 'ru-abu-adel']
+      - name: start_ayah_number
+        in: query
+        schema:
+          type: integer
+          format: int32
+        description: 'The number of the start ayah (if you want to get a range of ayahs)'
+        example: 1
+      - name: end_ayah_number
+        in: query
+        schema:
+          type: integer
+          format: int32
+        description: 'The number of the end ayah (if you want to get a range of ayahs)'
+        example: 2
+
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Ayahs'
+  
+  /translations:
+    get:
+      tags:
+        - translations
+      summary: List translations
+      operationId: listTranslations
+      parameters:
+      - name: language
+        in: query
+        description: 'The code of a language (if you want to get translations in a specific language) based on [ISO 639-1](https://en.wikipedia.org/wiki/iso_639-1)'
+        required: false
+        schema:
+          type: string
+        example: 'en'  
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Translations'
+  /words:
+    get:
+      tags:
+        - words
+      summary: List words of a specific surah
+      operationId: listWords
+      parameters:
+      - name: surah_number
+        in: query
+        required: true
+        schema:
+          type: integer
+          format: int32
+        description: 'The number of a surah.'
+        example: 1
+      - name: include_arabic_text
+        in: query
+        schema:
+          type: boolean
+          default: false
+        description: 'Add text in arabic?'
+        example: false
+      - name: language
+        in: query
+        schema:
+          type: string
+        description: 'The language code based on [ISO 639-1](https://en.wikipedia.org/wiki/iso_639-1)'
+        example: 'ru'
+      - name: start_ayah_number
+        in: query
+        schema:
+          type: integer
+          format: int32
+        description: 'The number of the start ayah (if you want to get words of a range of ayahs)'
+        example: 1
+      - name: end_ayah_number
+        in: query
+        schema:
+          type: integer
+          format: int32
+        description: 'The number of the end ayah (if you want to get words of a range of ayahs)'
+        example: 2
+      responses:
+        200:
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/WordsResponse'
+
+  /languages:
+    get:
+      tags:
+        - languages
+      summary: List of all languages in which there are translations.
+      operationId: listLanguages
+      responses:
+        200:
+          description: Successful operation
+          content:
+             application/json:
+               schema:
+                $ref: '#/components/schemas/Languages'
+            
+        400:
+          description: Invalid request.
+          content: {}
+        
+components:
+  schemas:
+    Surahs:
+      type: array
+      items:
+        $ref: '#/components/schemas/Surah'
+
+    Surah:
+      type: object
+      properties:
+        number:
+          type: integer
+          format: int32
+          example: 1
+        basmala:
+          type: boolean
+          example: false
+        revelation_place:
+          type: string
+          enum:
+          - meccan
+          - medinan
+          example: meccan
+        ayah_count:
+          type: integer
+          format: int32
+          example: 7
+        name:
+          $ref: '#/components/schemas/SurahName'
+
+    SurahName:
+      type: object
+      properties:
+        arabic:
+          type: string
+          example: 'الفاتحة'
+        translation:
+          type: string
+          example: 'The Opening'
+        transliteration:
+          type: string
+          example: 'Al-Fatiha'
+
+    Ayahs:
+      type: array
+      items:
+        $ref: '#/components/schemas/Ayah'
+
+    Ayah:
+      type: object
+      properties:
+        surah_number:
+          type: integer
+          format: int32
+          example: 1
+        number:
+          type: integer
+          format: int32
+          example: 1
+        juz_number:
+          type: integer
+          format: int32
+          example: 1
+        hizb_number:
+          type: integer
+          format: int32
+          example: 1
+        rub_number:
+          type: integer
+          format: int32
+          example: 1
+        sajdah:
+          type: boolean
+          example: false
+        word_count:
+          type: integer
+          format: int32
+          example: 4
+        arabic_text:
+          type: string
+          example: بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+        translations:
+          type: object
+          properties:
+            en-saheeh-international:
+              type: string
+              example: 'In the name of Allah, the Entirely Merciful, the Especially Merciful.'
+            ru-abu-adel:
+              type: string
+              example: 'С именем Аллаха Милостивого, Милосердного!'
+
+    Translations:
+      type: array
+      items: 
+        $ref: '#/components/schemas/Translation'
+
+    Translation:
+      type: object
+      properties:
+         code:
+           type: string
+           description: 'Code of the translation'
+           example: 'en-saheeh-international'
+         name:
+           type: string
+           description: 'Name of the translation'
+           example: 'Saheeh International'
+         language:
+           type: string
+           description: 'The language code based on [ISO 639-1](https://en.wikipedia.org/wiki/iso_639-1)'
+           example: 'en'
+        
+    WordsResponse:
+      type: array
+      items: 
+        $ref: '#/components/schemas/Words'
+
+    Words:
+      type: object
+      properties:
+        surah_number:
+          type: integer
+          format: int32
+          description: 'Surah number'
+          example: 1
+        number:
+          type: integer
+          description: 'Ayah number'
+          format: int32
+          example: 1
+        words:
+          type: array
+          items:
+            $ref: '#/components/schemas/Word'
+    Word:
+      type: object
+      properties:
+        position:
+          type: integer
+          format: int32
+          example: 1
+        arabic_text:
+          type: string
+          example: 'بِسْمِ' 
+        translation:
+          type: string
+          example: 'С именем'
+
+    Languages:
+      type: array
+      items: 
+        $ref: '#/components/schemas/Language'
+
+    Language:
+      type: object
+      properties:
+        code:
+          type: string
+          description: Codes for the representation of names of languages based on [ISO 639-1](https://en.wikipedia.org/wiki/ISO_639-1) standard
+          example: ar
+        name:
+          type: string
+          description: Language name in English
+          example: Arabic
+        native_name:
+          type: string
+          description: Language name in native language
+          example: العربية
+        direction:
+          type: string
+          description: Text-direction in the language
+          enum:
+          - ltr
+          - rtl
+          example: rtl
