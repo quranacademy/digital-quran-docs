@@ -13,7 +13,7 @@ For naming Arabic / Quranic terms transliteration of singular form is used. A tr
 | Quran |  |  |
 | Surah | Surahs | A chapter of the Quran |
 | Ayah | Ayahs | A verse of a chapter |
-| Riwaya |  | Transmission of the Quran |
+| Riwayah |  | Transmission of the Quran |
 
 ## Naming
 

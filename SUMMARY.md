@@ -9,12 +9,13 @@
 * [Translation files: description](standards-and-conventions/translation-files-structure.md)
 * [Translation files: examples](standards-and-conventions/translation-files-examples.md)
 * [Translation texts](standards-and-conventions/translation-texts.md)
+* [Quranic Text Markup Language \(QTML\)](standards-and-conventions/standard-text-markup.md)
 * [Code examples](standards-and-conventions/files-parsing-examples.md)
 
 ## Content & Releases <a id="content-and-release-plan"></a>
 
 * [Translations](content-and-release-plan/translations.md)
-* [Tafseers](content-and-release-plan/tafseers.md)
+* [Tafsirs](content-and-release-plan/tafseers.md)
 * [Word-by-word translations](content-and-release-plan/word-by-word-translations.md)
 
 ## FAQ
