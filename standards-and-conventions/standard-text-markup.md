@@ -1,7 +1,7 @@
 ---
 description: >-
-  Quranic Text Markup Language is the standard markup language for
-  Quranic/Islamic texts like translations, tafsirs, and hadiths.
+  Quranic Text Markup Language is the standard markup language for Quranic texts
+  like translations, tafsirs.
 ---
 
 # Quranic Text Markup Language \(QTML\)
@@ -12,7 +12,7 @@ description: >-
 The standard is currently under the development. Versions 0.x will be used for versioning untill the first stable standard released with version **1**. After the first stable version, versions will be in single integer format, i.e. 2, 3, 4, etc. 
 {% endhint %}
 
-Quran related texts like translations and tafseers have a very specific and complicated structure. Without a detailed markup, it is difficult to render these texts in proper and convenient way. Wouldn't it be nice to render all Quran references in a tafseer as a link or a tooltip? Prettify quotations, footnotes, headers, etc.? Besides prettier rendering, some elements, like Arabic words inside not-Arabic, might be rendered incorrectly without the proper handling. 
+Quran related texts like translations and tafsirs have a very specific and complicated structure. Without a detailed markup, it is difficult to render these texts in proper and convenient way. Wouldn't it be nice to render all Quran references in a tafsir as a link or a tooltip? Prettify quotations, footnotes, headers, etc.? Besides prettier rendering, some elements, like Arabic words inside not-Arabic, might be rendered incorrectly without the proper handling. 
 
 QTML was created to address all these problems. Basically it is a special XML format for Quranic/Islamic content. You can think of it like HTML for the web: having common markup standards allows developers to create better products for the users. Why don't we do the same for Quranic content?
 
@@ -206,15 +206,15 @@ Here are some examples of Islamic honorifics: _Subhanahu Wa Ta'ala, RadiAllahu_ 
 | `<awj/>` | Allah | عزّ وجلّ‎ | Azza wa Jall | Mighty and the Majestic |
 | `<swt/>` | Allah | سبحانه وتعالىٰ | Subhanahu wa Taʿālā | Glorified and Exalted be He |
 | `<jal/>` | Allah | جل جلاله | Jalla Jalāluhu | The Most Exalted |
-| `<sas/>` | Muhammad | صَلّى اللهُ عليهِ واٰله وسلّم | Ṣallallāhu ′alayhe waa all-a-hi wassallam | May Allah send blessings and peace upon him |
-| `<as/>` | Angels and prophets | عليه السلام | Alayhis Salam | Peace be upon him |
-| `<radu/>` | Companions of Muhammad | رضي الله عنه | Radeyallahu ′Anhu | May Allah be pleased with him |
-| `<rada/>` | Companions of Muhammad | رضي الله عنها | Radeyallahu ′Anha | May Allah be pleased with her |
-| `<radum/>` | Companions of Muhammad | رضي الله عنهم | Radeyallahu ′Anhum | May Allah be pleased with them |
-| `<raduma/>` | Companions of Muhammad | رضي الله عنهما | Radeyallahu ′Anha | May Allah be pleased with them both |
-| `<rahimahu/>` | Scholars | رحمة الله عليه | Rahimullah Alaih | May Allah's mercy be upon him |
-| `<rahimahum/>` | Scholars | رحمة الله عليهم | Rahimullah Alaihum | May Allah's mercy be upon them |
-| `<rahimahuma/>` | Scholars | رحمة الله عليهما | Rahimullah Alaihuma | May Allah's mercy be upon them two |
+| `<sas/>` | Muhammad | صَلّى اللهُ عليهِ وسلّم | Ṣallallāhu ′alayhi wa sallam | May Allah send blessings and peace upon him |
+| `<as/>` | Angels and prophets | عليه السلام | Alayhi s-salam | Peace be upon him |
+| `<radu/>` | Companions of Muhammad | رضي الله عنه | Radiyallahu ′anhu | May Allah be pleased with him |
+| `<rada/>` | Companions of Muhammad | رضي الله عنها | Radiyallahu ′anha | May Allah be pleased with her |
+| `<radum/>` | Companions of Muhammad | رضي الله عنهم | Radiyallahu ′anhum | May Allah be pleased with them |
+| `<raduma/>` | Companions of Muhammad | رضي الله عنهما | Radiyallahu ′anhuma | May Allah be pleased with them both |
+| `<rahimahu/>` | Scholars | رحمه الله | Rahimullah | May Allah's mercy be upon him |
+| `<rahimahum/>` | Scholars | رحمهم الله | Rahimullah | May Allah's mercy be upon them |
+| `<rahimahuma/>` | Scholars | رحمهما الله | Rahimumallah | May Allah's mercy be upon them two |
 
 
 
