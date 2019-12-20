@@ -149,7 +149,7 @@ _**Example:**_
 
 ```text
 Original: Ибн Джарир и ат-Тирмизи добавили: «( الصَّمَدُ ) Самодостаточный - значит, ...
-QXML: Ибн Джарир и ат-Тирмизи добавили: «(<arabic>الصَّمَدُ</arabic>) Самодостаточный - значит, ...
+QTML: Ибн Джарир и ат-Тирмизи добавили: «(<arabic>الصَّمَدُ</arabic>) Самодостаточный - значит, ...
 ```
 
 #### Inline Quran citation \(&lt;quran-inline&gt;\)
@@ -184,7 +184,7 @@ _**Example:**_
 
 ```markup
 Original: Который научил (людей) (письму) пером [письменной тростью],
-QXML: Который научил <inline-comment brackets="round">людей</inline-comment> <inline-comment brackets="round">письму</inline-comment> пером <inline-comment brackets="square">письменной тростью</inline-comment>,
+QTML: Который научил <inline-comment brackets="round">людей</inline-comment> <inline-comment brackets="round">письму</inline-comment> пером <inline-comment brackets="square">письменной тростью</inline-comment>,
 ```
 
 #### Footnote \(&lt;footnote&gt;\)
