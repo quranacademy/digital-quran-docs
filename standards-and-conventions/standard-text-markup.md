@@ -1,7 +1,7 @@
 ---
 description: >-
   Quranic Text Markup Language is the standard markup language for Quranic texts
-  like translations, tafsirs.
+  like translations and tafsirs.
 ---
 
 # Quranic Text Markup Language \(QTML\)
