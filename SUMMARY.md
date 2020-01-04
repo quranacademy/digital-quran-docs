@@ -14,6 +14,9 @@
 
 ## Content & Releases <a id="content-and-release-plan"></a>
 
+* [Quran text](content-and-release-plan/quran-text.md)
+* [Font \(Kitab\)](content-and-release-plan/font-kitab.md)
+* [Meta data](content-and-release-plan/meta-data.md)
 * [Translations](content-and-release-plan/translations.md)
 * [Tafsirs](content-and-release-plan/tafseers.md)
 * [Word-by-word translations](content-and-release-plan/word-by-word-translations.md)
