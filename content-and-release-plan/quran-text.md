@@ -25,3 +25,5 @@ Currently the text is best viewed using [Amiri Quran](http://www.amirifont.org) 
 * Variation in the use and location of spaces \(some removed; some added\).
 * Variation in the use and location of pause marks \(some removed; some added; as they are, in the end, simply indicators\).
 
+The Noble Quran text available [here](https://github.com/quranacademy/quran-text), for any problem please report in the [issues](https://github.com/quranacademy/quran-text/issues).
+
