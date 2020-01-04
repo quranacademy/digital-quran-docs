@@ -52,5 +52,5 @@ The following honorifics were added \(note: these honorifics are set to be inclu
 
 This font software is free to use, modify, and redistribute according to the terms of the [SIL Open Font License](http://scripts.sil.org/ofl).
 
-The font is available [here ](https://github.com/quranacademy/kitab-font)for any mistakes or problems please report in [issues ](https://github.com/quranacademy/digital-quran-docs/issues).
+The font is available [here, ](https://github.com/quranacademy/kitab-font)for any mistakes or problems please report in the [issues ](https://github.com/quranacademy/digital-quran-docs/issues).
 
