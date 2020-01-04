@@ -7,7 +7,11 @@ description: >-
 
 # Contributors
 
+### M
+
+*  [Mustafa Jibaly](https://github.com/mustafa0x) -  @nuqayah.com provided and maintains [Quran text ](https://quranacademy.gitbook.io/digital-quran/content-and-release-plan/quran-text)
+
 ### K
 
-*  [Khaled Hosny](https://github.com/khaledhosny) - provided and maintains [Kitab ](https://quranacademy.gitbook.io/digital-quran/content-and-release-plan/font-kitab)font and updated [Quran text ](https://quranacademy.gitbook.io/digital-quran/content-and-release-plan/quran-text)
+*  [Khaled Hosny](https://github.com/khaledhosny) - provided and maintains [Kitab ](https://quranacademy.gitbook.io/digital-quran/content-and-release-plan/font-kitab)font[ ](https://quranacademy.gitbook.io/digital-quran/content-and-release-plan/quran-text)
 
