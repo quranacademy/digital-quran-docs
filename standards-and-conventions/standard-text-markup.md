@@ -9,15 +9,15 @@ description: >-
 **VERSION 0.1**
 
 {% hint style="info" %}
-The standard is currently under the development. Versions 0.x will be used for versioning untill the first stable standard released with version **1**. After the first stable version, versions will be in single integer format, i.e. 2, 3, 4, etc. 
+The standard is currently under the development. Versions 0.x will be used for versioning untill the first stable standard released with version **1**. After the first stable version, versions will be in single integer format, i.e. 2, 3, 4, etc.
 {% endhint %}
 
-Quran related texts like translations and tafsirs have a very specific and complicated structure. Without a detailed markup, it is difficult to render these texts in proper and convenient way. Wouldn't it be nice to render all Quran references in a tafsir as a link or a tooltip? Prettify quotations, footnotes, headers, etc.? Besides prettier rendering, some elements, like Arabic words inside not-Arabic, might be rendered incorrectly without the proper handling. 
+Quran related texts like translations and tafsirs have a very specific and complicated structure. Without a detailed markup, it is difficult to render these texts in proper and convenient way. Wouldn't it be nice to render all Quran references in a tafsir as a link or a tooltip? Prettify quotations, footnotes, headers, etc.? Besides prettier rendering, some elements, like Arabic words inside not-Arabic, might be rendered incorrectly without the proper handling.
 
 QTML was created to address all these problems. Basically it is a special XML format for Quranic/Islamic content. You can think of it like HTML for the web: having common markup standards allows developers to create better products for the users. Why don't we do the same for Quranic content?
 
 {% hint style="info" %}
-**NOTE**: Developers don't have to worry about parsing QTML. Along with QTML, compiling scripts on different programming languages will be provided \(**TODO**\), so developers can focus on their product instead of parsing QTML. For example, using provided compiler, one can easily translate QTML text to HTML with custom styles, classes, etc. 
+**NOTE**: Developers don't have to worry about parsing QTML. Along with QTML, compiling scripts on different programming languages will be provided \(**TODO**\), so developers can focus on their product instead of parsing QTML. For example, using provided compiler, one can easily translate QTML text to HTML with custom styles, classes, etc.
 {% endhint %}
 
 ## General standards
@@ -26,7 +26,7 @@ QTML was created to address all these problems. Basically it is a special XML fo
 * The root element is `<qtml>`
 * There are two type of elements: block elements and inline elements:
   * Each text paragraph \(i.e. content block starting from a new line\) is wrapped by one of block elements \(see below\)
-  * An element _**can not**_ contain a block element and _**can**_ ****contain any number of inline elements
+  * An element _**can not**_ contain a block element and _**can**_ _\*\*_contain any number of inline elements
 * A footnotes block element, if presented, is the last block element
 * QTML text encoded by UTF-8
 
@@ -56,7 +56,7 @@ The Quran block is used to mark up a citation of the Quran ayah inside the text.
 * For short inline Quran citations `<inline-quran>` element is used
 * For multi-ayah citation multiple `<quran>` blocks used: each ayah in a separate block
 
-_**Attributes:**_ **`surah, ayah`**  The attributes provide the beginning and the ending ayah coordinates correspondingly. Where an ayah coordinate is a number of surah and ayah separated by a colon. For example, `4:3` is the coordinate of the 3rd ayah of the 4th surah.
+_**Attributes:**_ **`surah, ayah`** The attributes provide the beginning and the ending ayah coordinates correspondingly. Where an ayah coordinate is a number of surah and ayah separated by a colon. For example, `4:3` is the coordinate of the 3rd ayah of the 4th surah.
 
 _**Example:**_
 
@@ -69,16 +69,16 @@ _**Example:**_
 
 #### Footnotes block \(&lt;footnotes&gt;, &lt;footnote-content&gt;, &lt;footnote&gt;\)
 
-In order to separate a footnote from the text, a footnote is split into two parts: 
+In order to separate a footnote from the text, a footnote is split into two parts:
 
 * `<footnote>` - marks the position of the footnote inside the paragraph
 * `<footnote-content>` - contains the text of the footnote
 
-These two elements are linked by the `id` attribute. The value of the `id` attribute is also the subscript text \(usually a number\) inside the paragraph. 
+These two elements are linked by the `id` attribute. The value of the `id` attribute is also the subscript text \(usually a number\) inside the paragraph.
 
 While `<footnote>` elements are placed inside the paragraph, all the corresponding `<footnote-content>` elements are placed in a `<footnotes>` block at the end, i.e. it is always the last block element.
 
-_**Example:**_ 
+_**Example:**_
 
 {% tabs %}
 {% tab title="QTML" %}
@@ -97,7 +97,7 @@ _**Example:**_
 {% endtab %}
 
 {% tab title="Markdown" %}
-```
+```text
 Ние ти дадохме[^1] ал-Каусар.[^2]
 
 [^1]: о, Мухаммад реката
@@ -145,7 +145,7 @@ _**Example:**_ **TODO**
 
 This elements marks up Arabic text inside a text of the other language. For example, it is common to for non-Arabic \(or translated\) tafsirs to mix Arabic text with the native language. Mixing a left-to-right text with a right-to-left might often leads to an incorrect rendering of the text. That is why this tag is important to use in such cases.
 
-_**Example:**_ 
+_**Example:**_
 
 ```text
 Original: Ибн Джарир и ат-Тирмизи добавили: «( الصَّمَدُ ) Самодостаточный - значит, ...
@@ -162,7 +162,7 @@ Self-closing tag. Marks up inline Quran citations, i.e. the citation is not sepa
 For full ayah citation, `<quran>` block element is be used.
 {% endhint %}
 
- _**Attributes:**_ **`from, till`**  The attributes provide the starting and the ending word coordinates correspondingly. Where a word coordinate is a number of surah, ayah, and word separated by a colon. For example, `4:3:5` is the coordinate of the 5th word in the 3rd ayah of the 4th surah.
+_**Attributes:**_ **`from, till`** The attributes provide the starting and the ending word coordinates correspondingly. Where a word coordinate is a number of surah, ayah, and word separated by a colon. For example, `4:3:5` is the coordinate of the 5th word in the 3rd ayah of the 4th surah.
 
 _**Example:**_
 
@@ -172,7 +172,7 @@ _**Example:**_
 
 #### Comment \(&lt;inline-comment&gt;\)
 
-Marks a short inline comment made by the author in a translation. 
+Marks a short inline comment made by the author in a translation.
 
 Such comments often can be found in a translation inside round \(`(`\) or squared \(`[`\) brackets. Some translations use both round and squared brackets to differentiate the meaning of comments. For example, `(` for words which are implicitly implied in the original Arabic text and `[` for clarifying text. To keep that information in the digital format, a `brackets` attribute is used.
 
@@ -180,7 +180,7 @@ Some translation also provide long inline comments in doubled squared brackets \
 
 _**Attributes:**_ **`brackets=round|square`**
 
-_**Example:**_ 
+_**Example:**_
 
 ```markup
 Original: Который научил (людей) (письму) пером [письменной тростью],
@@ -191,7 +191,7 @@ QTML: Который научил <inline-comment brackets="round">людей</i
 
 Self-closing tag. Defines the position of the corresponding footnote content \(see `<footnotes>` block element\).
 
-_**Attributes:**_ **`id`** id of the corresponding `<footnote-content>` element. 
+_**Attributes:**_ **`id`** id of the corresponding `<footnote-content>` element.
 
 _**Example:**_ See `<footnotes>` block element
 
@@ -215,8 +215,4 @@ Here are some examples of Islamic honorifics: _Subhanahu Wa Ta'ala, RadiAllahu_ 
 | `<rahimahu/>` | Scholars | رحمه الله | Rahimullah | May Allah's mercy be upon him |
 | `<rahimahum/>` | Scholars | رحمهم الله | Rahimullah | May Allah's mercy be upon them |
 | `<rahimahuma/>` | Scholars | رحمهما الله | Rahimumallah | May Allah's mercy be upon them two |
-
-
-
-
 
