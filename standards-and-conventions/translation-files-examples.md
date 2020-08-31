@@ -21,6 +21,7 @@ Here you can find examples of [by-ayah translation](translation-files-examples.m
 {
     "translation": {
         "meta": {
+            "code": "ru.elmir-kuliev",
             "name": {
                 "ru": "Эльмир Кулиев",
                 "en": "Elmir Kuliyev"
@@ -115,6 +116,7 @@ Here you can find examples of [by-ayah translation](translation-files-examples.m
 <?xml version="1.0" encoding="utf-8"?>
 <translation>
     <meta>
+        <code>ru.elmir-kuliev</code>
         <name>
             <ru>Эльмир Кулиев</ru>
             <en>Elmir Kuliyev</en>
@@ -212,6 +214,7 @@ Here you can find examples of [by-ayah translation](translation-files-examples.m
 {
     "translation": {
         "meta": {
+            "code": "ru.quran-academy",
             "name": {
                 "ru": "Абу Адель",
                 "en": "Abu Adel"
@@ -437,6 +440,7 @@ Here you can find examples of [by-ayah translation](translation-files-examples.m
 <?xml version="1.0" encoding="utf-8"?>
 <translation>
     <meta>
+        <code>ru.quran-academy</code>
         <name>
             <ru>Абу Адель</ru>
             <en>Abu Adel</en>
